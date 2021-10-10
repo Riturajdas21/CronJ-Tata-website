@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+    height: 100vh; /* For 100% screen height */
+    width:  100vw; /* For 100% screen width */
+}
+
+/* Header/logo Title */
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+html, body {
+max-width: 100%;
+ overflow-x: hidden;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    background-color: dodgerblue;
+    height: 30px;
+}
+
+/* 2nd Navigation Bar  */
+.navbar2 {
+    display: flex;
+    background-color: white;
+    height: 86px;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: white;
+    padding: 8px 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+}
+
+.navbar2 a {
+    color: black;
+    padding: 32px 7px;
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+}
+
+.navbar a.right {
+    position: relative;
+    left: 366px;
+}
+
+.navbar2 a.pog {
+    position: relative;
+    left: 44px;
+}
+
+/* Change color on hover */
+.navbar a.left:hover {
+    background-color: rgb(129, 142, 173);
+    color: black;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+/* inside-header */
+.inside-header {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.inside-header-text {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50px;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+.inside-header img {
+    width: 100%;
+}
+
+.desktop1920 {
+    display: block;
+}
+
+.inside-header-text h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.inside-header-text h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.rituraj {
+    position: absolute;
+    left: 4px;
+    bottom: -67px;
+}
+
+.rituraj a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #77e4ff;
+    padding-right: 1px;
+    position: relative;
+}
+
+.rituraj span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-right: 1px;
+    position: relative;
+}
+
+.rituraj strong {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-right: 14px;
+}
+
+.main-content {
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+.main-content a{
+    text-decoration: none;
+}
+.contTabInfoHolder {
+    background-color: lightgrey;
+padding: 129px 156px;
+}
+.feedbackContainer h6.mandatory{
+    font-style: italic;
+    position: relative;
+    left: 11%;
+    bottom: 40px;
+    font-size: 14px;
+    color: #1c4176;
+}
+.footer_link {
+    float: left;
+    font-size: 12px;
+    color: #424242;
+}
+.footer_link a {
+    margin: 0 5px;
+    color: #424242;
+    text-decoration: none;
+}
+.coryright {
+    float: right;
+    font-size: 12px;
+    color: #424242;
+}
+
+
